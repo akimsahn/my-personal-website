@@ -1,5 +1,5 @@
-function blur() {
+function blurImage() {
     document.getElementById('portrait').blur();
 }
 
-blur();
+blurImage();
