@@ -1,3 +1,26 @@
 body {
-    background: rgb(188, 188, 222);
+    font-family:'Helvetica', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: rgb(214, 214, 252);
+    color: rgb(72, 68, 112);
+}
+
+header {
+    font-style: italic;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+div {
+    display: inline-block;
+    padding-inline: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+#portrait {
+    float: right;
 }

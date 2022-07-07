@@ -1,4 +1,5 @@
-const h2 = document.createElement('h2')
-h2.textContent = "This content added by JavaScript"
+function blur() {
+    document.getElementById('portrait').blur();
+}
 
-document.querySelector("body").appendChild(h2)
+blur();
