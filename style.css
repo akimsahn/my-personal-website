@@ -15,12 +15,12 @@ nav {
     padding-bottom: 20px;
 }
 
-div {
+div.links {
     display: inline-block;
     padding-inline: 5px;
     background-color: rgb(255, 255, 255);
 }
 
-#portrait {
+#image {
     float: right;
 }

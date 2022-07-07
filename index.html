@@ -9,22 +9,26 @@
             <h1>Welcome, allow me to introduce myself:</h1>
         </header>
         <nav>
-            <div>
+            <div class="links">
                 <img src="./images/linkedin.png" alt="linkedin icon" width="12px">
                 <a href="https://www.linkedin.com/in/allison-kim-6abbb7192/">LinkedIn</a>
             </div>
-            <div>
+            <div class="links">
                 <img src="./images/instagram.png" alt="instagram icon" width="12px">
                 <a href="https://www.instagram.com/akimsahn/">Instagram</a>
             </div>
-            <div>
+            <div class="links">
                 <img src="./images/tiktok.png" alt="tiktok icon" width="12px">
                 <a href="https://www.tiktok.com/@akimsahn">TikTok</a>
             </div>
         </nav>
-        <img id="portrait" src="images/self-portrait.jpg" alt="allison in nature">
-        <h2>My name is Allison Kim</h2>
+
+        <section id="image">
+            <img id="portrait" onmouseover="shadeImage(this)" onmouseout="normalImage(this)" src="images/self-portrait.jpg" alt="allison in nature">
+        </section>
+
         <main>
+            <h2>My name is Allison Kim</h2>
             <h3>Education</h3>
             <ul>
                 <li>Studied at Virginia Tech</li>
