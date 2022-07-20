@@ -1,12 +1,13 @@
 body {
-    font-family:'Helvetica', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 20px;
     background-color: rgb(214, 214, 252);
     color: rgb(72, 68, 112);
 }
 
 header {
-    font-style: italic;
+    font-family: 'Brush Script MT';
+    font-size: x-large;
     text-align: center;
 }
 
@@ -23,4 +24,24 @@ div.links {
 
 #image {
     float: right;
+}
+
+#portrait {
+    width: 500px;
+}
+
+#overlay {
+    position: absolute;
+    top: 420px;
+    width: 460px;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#image:hover #overlay {
+    opacity: 1;
 }
